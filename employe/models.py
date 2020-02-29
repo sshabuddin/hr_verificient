@@ -11,4 +11,4 @@ class employe(models.Model):
    reporting_manager = models.CharField(max_length = 50)
    
    class Meta:
-      db_table = "Employe"
+      db_table = "employe"
