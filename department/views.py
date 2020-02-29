@@ -3,7 +3,8 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def emplye(request):
+def department(request):
 
-	output = "This is from employe page"
+
+	output = "This is from department page"
 	return HttpResponse(output)

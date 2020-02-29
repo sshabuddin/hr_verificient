@@ -18,7 +18,7 @@ from django.urls import path, include
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
-	path("employe/",views.employe)
+	path("department/",views.department)
 ]
 
 urlpatterns += staticfiles_urlpatterns()
