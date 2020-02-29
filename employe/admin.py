@@ -1,6 +1,4 @@
 from django.contrib import admin
-from hr_verificient.employe.models import employe
-from hr_verificient.departmet.models import departmet
+from .models import employe
 # Register your models here.
-admit.site.register(employe)
-admit.site.register(department)
+admin.site.register(employe)
