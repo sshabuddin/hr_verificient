@@ -6,7 +6,7 @@ class employe(models.Model):
    emp_id = models.IntegerField(primary_key=True)
    emp_name = models.CharField(max_length = 50)
    phonenumber = models.IntegerField()
-   joining_date = models.DateTimeField()
+   joining_date = models.DateField()
    emp_email = models.CharField(max_length = 50)
    reporting_manager = models.CharField(max_length = 50)
    

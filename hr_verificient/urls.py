@@ -15,10 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from employe import views as e
+from department import views as d
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('employe/', e.employe),
+    path('department/', d.department),
     path('', include("miss_management.urls")),
 ]
 

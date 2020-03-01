@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def emplye(request):
+def employe(request):
 
 	output = "This is from employe page"
 	return HttpResponse(output)
